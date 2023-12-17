@@ -244,7 +244,7 @@ ul li ul li
 ul li ul li a 
 {
   display: block !important;
-  font-size: 9px;
+  font-size: 8px;
   color: #fff !important;
 }
 
@@ -289,7 +289,7 @@ section#home
 {
   width: 1536px;
   top: -1px;
-  height: 380px;
+  height: 390px;
   position: absolute;
 }
 
@@ -306,10 +306,10 @@ section#home
 
 .logo
  {
-    width: 300px;
+    width: 280px;
     border-radius: 500px;
     border: 6px solid #181818;
-    margin-top: -2%;    
+    margin-top: 1%;    
   }
 
 .intro-name
