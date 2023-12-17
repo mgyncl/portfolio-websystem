@@ -16,7 +16,8 @@ body
     height: 100vh;
 }
 
-@keyframes gradient {
+@keyframes gradient 
+{
     0% {
         background-position: 0% 50%;
     }
@@ -41,7 +42,7 @@ header
 
 .logo 
 {
-    width: 500px;
+    width: 400px;
     position: absolute; 
     top: 15%; 
     left: 55%;
@@ -54,11 +55,11 @@ header
 {
     position: absolute;
     color: #ffffff;
-    font-size: 50px;
+    font-size: 40px;
     padding-top: 20px;
     font-weight:bold;
     top: 22%; 
-    left: 27%;
+    left: 24%;
     transform: translate(-50%, -50%);
     text-align:left;
     letter-spacing: 10px;
@@ -76,10 +77,10 @@ header
     width: 0;
     height: 0;
     border-top: 20px solid transparent;
-    border-left: 40px solid #181818;
-    border-bottom: 20px solid transparent;
-    margin-left: 670px;
-    margin-top: 225px;
+    border-left: 35px solid #181818;
+    border-bottom: 12px solid transparent;
+    margin-left: 470px;
+    margin-top: 165px;
     cursor: pointer;
     position: absolute;
     z-index: 2;
@@ -96,11 +97,10 @@ header
 {
   position: absolute;
   color: #ffffff;
-  font-size: 16px;
-  padding-top: 900px;
+  font-size: 13px;
+  padding-top: 635px;
   font-weight: lighter;
-  top: -40px;
-  left: 36%;
+  left: 34%;
   transform: translate(-50%, -50%);
   text-align: left;
   letter-spacing: 1px;
@@ -109,16 +109,16 @@ header
 
 .button 
 {
-  height: 50px;
-  width: 200px;
+  height: 40px;
+  width: 180px;
   border: none;
   border-radius: 25px;
   cursor: pointer;
   position: relative;
   overflow: hidden;
   transition: all 0.5s ease-in-out;
-  margin-left: 430px;
-  margin-top: 560px;
+  margin-left: 270px;
+  margin-top: 430px;
 }
 
 .button:hover 
@@ -130,15 +130,15 @@ header
 {
   content: "download";
   text-transform: uppercase;
-  height: 50px;
-  width: 200px;
+  height: 40px;
+  width: 180px;
   background-color:  #ffffff;
   color: #030303;
   position: absolute;
   top: 0%;
   left: 0%;
   transform: translateY(50px);
-  font-size: 1rem;
+  font-size: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -148,8 +148,8 @@ header
 .type1::before 
 {
   content: "here's my resume";
-  height: 50px;
-  width: 200px;
+  height: 40px;
+  width: 180px;
   text-transform: uppercase;
   background-color: #181818;
   color: #ffffff;
@@ -157,7 +157,7 @@ header
   top: 0%;
   left: 0%;
   transform: translateY(0px) scale(1.2);
-  font-size: 1rem;
+  font-size: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -190,14 +190,14 @@ header
 {
   visibility: hidden;
   width: 80px;
-  font-size: 13px;
+  font-size: 10px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   text-align: center;
   padding: 5px 0;
   border-color: #cdcdcd;
-  margin-top: 10px;
-  margin-left: 360px;
+  margin-top: 7px;
+  margin-left: 220px;
   opacity: 0.70;
   border-radius: 10px;
   position: absolute;
@@ -213,14 +213,14 @@ header
 {
   visibility: hidden;
   width: 60px;
-  font-size: 13px;
+  font-size: 10px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   text-align: center;
   padding: 5px 0;
   border-color: #cdcdcd;
-  margin-top: 56px;
-  margin-left: 503px;
+  margin-top: 40px;
+  margin-left: 330px;
   opacity: 0.70;
   border-radius: 10px;
   position: absolute;
@@ -236,14 +236,14 @@ header
 {
   visibility: hidden;
   width: 80px;
-  font-size: 13px;
+  font-size: 10px;
   background-color: rgb(255, 255, 255);
   color: rgb(0, 0, 0);
   text-align: center;
   padding: 5px 0;
   border-color: #cdcdcd;
-  margin-top: 10px;
-  margin-left: 625px;
+  margin-top: 7px;
+  margin-left: 420px;
   opacity: 0.70;
   border-radius: 10px;
   position: absolute;
@@ -257,38 +257,38 @@ header
 
 .fb, .mail, .ig
 {
-  top: 619px;
+  top: 475px;
 }
 
 .fb 
 {
-    width: 37px;
-    height: 37px;
+    width: 30px;
+    height: 30px;
     position: fixed;
     bottom: 360px; 
-    left: 23%;
+    left: 20.9%;
     transform: translateX(-50%); 
     cursor: pointer;
 }
 
 .mail 
 {
-    width: 40px;
-    height: 40px; 
+    width: 31px;
+    height: 31px; 
     position: fixed;
     bottom: 358px; 
-    left: 26%; 
+    left: 23.4%; 
     transform: translateX(-50%); 
     cursor: pointer;
 }
 
 .ig 
 {
-    width: 36px;
-    height: 36px; 
+    width: 31px;
+    height: 30px; 
     position: fixed;
     bottom: 360px; 
-    left: 29%; 
+    left: 26%; 
     transform: translateX(-50%); 
     cursor: pointer;
 }
