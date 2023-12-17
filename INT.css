@@ -53,7 +53,7 @@ header nav
 .content 
 {
     position: absolute;
-    top: 110%;
+    top: 125%;
     left: 50%;
     transform: translate(-50%, -50%);
     height: 140px;
