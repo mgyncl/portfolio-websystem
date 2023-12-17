@@ -17,7 +17,7 @@ header
     position: fixed;
     color: white;
     padding: 0 20px;
-    height: 83px;
+    height: 70px;
     z-index: 3;
 }
 
@@ -263,7 +263,7 @@ main
 
 section 
 {
-  min-height: 100vh;
+
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -306,7 +306,8 @@ section#home
 
 .logo
  {
-    width: 280px;
+    width: 100%;
+    max-width: 280px;
     border-radius: 500px;
     border: 6px solid #181818;
     margin-top: 1%;    
