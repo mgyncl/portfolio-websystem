@@ -2,6 +2,6 @@ document.addEventListener("DOMContentLoaded", function ()
 {
     setTimeout(function () 
     {
-        window.location.href = "PROJECTS.html";
+        window.location.href = "./projects";
     }, 2000);
 });
