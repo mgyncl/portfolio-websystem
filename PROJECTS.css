@@ -147,7 +147,7 @@ header
 {
   height: 450px;
   width: 655px;
-  background-image: url("/bin/TALINAO_NICOLE/Icons_images/cms.png");
+  background-image: url("cms.png");
   position: absolute;
   z-index: 10; 
   top: 290px;
@@ -185,7 +185,7 @@ header
 {
   height: 450px;
   width: 800px;
-  background-image: url("/bin/TALINAO_NICOLE/Icons_images/classroom.png");
+  background-image: url("classroom.png");
   position: absolute;
   z-index: 10;
   top: 290px; 
@@ -224,7 +224,7 @@ header
 {
   height: 340px;
   width: 690px;
-  background-image: url("/bin/TALINAO_NICOLE/Icons_images/learnlog.png");
+  background-image: url("learnlog.png");
   position: absolute;
   z-index: 10; 
   top: 1040px;
