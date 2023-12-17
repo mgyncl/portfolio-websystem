@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-* {
+* 
+{
     margin: 0;
     padding: 0;
     list-style: none;
@@ -16,16 +17,20 @@ body
     height: 100vh;
 }
 
-@keyframes gradient {
-    0% {
+@keyframes gradient 
+{
+    0% 
+    {
         background-position: 0% 50%;
     }
  
-    50% {
+    50% 
+    {
         background-position: 100% 50%;
     }
  
-    100% {
+    100% 
+    {
         background-position: 0% 50%;
     }
 }
@@ -93,7 +98,8 @@ header
     transition: 0.2s ease-in-out;
   }
 
-.description {
+.description 
+{
   position: absolute;
   color: #ffffff;
   font-size: 16px;
